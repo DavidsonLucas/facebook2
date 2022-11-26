@@ -1,0 +1,213 @@
+@import "reset";
+@import "variables";
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background:$color-da-pagina-toda;
+}
+
+
+    section{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10%;
+        gap: 50px;
+        nav{
+            display: flex;
+            flex-direction: column;
+            display: inline-block;
+            
+            
+            img{
+                position: relative;
+                left:-45px;
+                width: 25vw;
+                height: 17vh;
+
+                @media (max-width:800px){
+                    width:10rem;
+                    position: none;
+                   
+                }
+            }
+
+            h2{
+                font-size: 28px;
+                width: 40rem;
+                display: flex;
+                justify-content: left;
+
+                @media (max-width:800px){
+                    font-size:15px;
+                    width: 350px;
+                    text-align: center;
+                }
+
+            }
+        }
+
+    
+
+    aside{
+        display: inline-block;
+        .trf{
+            display: flex;
+            flex-direction: column;
+            
+            ._6luv{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 396px;
+                box-sizing:0 2px 6px rgb(0 0 0 / 11%), 0 8px 16px rgb(0 0 0 / 10%);
+                border: none;
+                border-radius:8px ;
+                color: white;
+                background-color: white;
+                height:412px ;
+
+              
+                input{
+                height: 55px;
+                border: 1px solid #dddfe2;
+                border-radius: 6px;
+                background: #fff;
+                font-size: 17px;
+
+                }
+              
+                  input:focus{
+                    border:1px solid #1877f2;
+                    outline: none;
+                   
+                }
+                
+               .batao-1{
+                margin-top: 1.8rem;
+                height: 55px;
+                border-radius: 6px;
+                width: 25rem;
+                color: white;
+                background: $cor-do-butao1;
+                border: none;
+                cursor: pointer;
+                font-weight: 900;
+                font-size: 18px;
+                }
+               .batao-1:hover{
+                background: #5895e6;
+                }
+                .batao-1:active{
+                    opacity: .5;
+                }
+
+                a{
+                    color: black;
+                }
+                .linha{
+                width: 25rem;    
+                border:0.1px solid #dddfe2;   
+
+                }
+                .batao-2{
+                width: 12rem;
+                height: 45px;
+                border-radius:6px;
+                border: none;
+                color: white;
+                background: $cor-do-butao2;
+                cursor: pointer;
+                font-size: 17px;
+                line-height: 48px;
+                font-weight: bold;
+                margin-top: 5px;
+                }
+                .batao-2:hover{
+                    background: #63e44a;
+                }
+                .batao-2:active{
+                    opacity: .5;
+                }
+            }
+           
+        }
+        .container-2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            .link-final{
+                width: 390px;
+                text-align: center;
+            }
+            b{
+            color: #1877f2;
+            text-decoration: underline
+                    
+            }
+            samp{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+@media screen  and (max-width:800px){
+    
+       section{
+        display: block;
+
+        nav{
+            text-align: center;
+             img{
+                 margin-left: 6rem;   
+             }
+       
+        }
+      aside{
+            margin-top: 50px;
+        .trf{   
+          ._6luv{
+             width: 340px; 
+
+             input{
+                width: 289px;
+             }
+             .batao-1{
+                width: 21rem;
+             }
+
+             .linha{
+                width: 21rem;
+             }
+            }
+        }
+      .container-2{
+           .link-final{
+             width: 323px;
+            }
+        }
+    }
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "responsive"

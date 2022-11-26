@@ -1,0 +1,216 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: 14px Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f0f2f5;
+}
+
+section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+  gap: 50px;
+}
+section nav {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+}
+section nav img {
+  position: relative;
+  left: -45px;
+  width: 25vw;
+  height: 17vh;
+}
+@media (max-width: 800px) {
+  section nav img {
+    width: 10rem;
+    position: none;
+  }
+}
+section nav h2 {
+  font-size: 28px;
+  width: 40rem;
+  display: flex;
+  justify-content: left;
+}
+@media (max-width: 800px) {
+  section nav h2 {
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+  }
+}
+section aside {
+  display: inline-block;
+}
+section aside .trf {
+  display: flex;
+  flex-direction: column;
+}
+section aside .trf ._6luv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 396px;
+  box-sizing: 0 2px 6px rgba(0, 0, 0, 0.11), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: white;
+  height: 412px;
+}
+section aside .trf ._6luv input {
+  height: 55px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 17px;
+}
+section aside .trf ._6luv input:focus {
+  border: 1px solid #1877f2;
+  outline: none;
+}
+section aside .trf ._6luv .batao-1 {
+  margin-top: 1.8rem;
+  height: 55px;
+  border-radius: 6px;
+  width: 25rem;
+  color: white;
+  background: #1877f2;
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 18px;
+}
+section aside .trf ._6luv .batao-1:hover {
+  background: #5895e6;
+}
+section aside .trf ._6luv .batao-1:active {
+  opacity: 0.5;
+}
+section aside .trf ._6luv a {
+  color: black;
+}
+section aside .trf ._6luv .linha {
+  width: 25rem;
+  border: 0.1px solid #dddfe2;
+}
+section aside .trf ._6luv .batao-2 {
+  width: 12rem;
+  height: 45px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background: #42b72a;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+section aside .trf ._6luv .batao-2:hover {
+  background: #63e44a;
+}
+section aside .trf ._6luv .batao-2:active {
+  opacity: 0.5;
+}
+section aside .container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+section aside .container-2 .link-final {
+  width: 390px;
+  text-align: center;
+}
+section aside .container-2 b {
+  color: #1877f2;
+  text-decoration: underline;
+}
+section aside .container-2 samp {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    display: block;
+  }
+  section nav {
+    text-align: center;
+  }
+  section nav img {
+    margin-left: 6rem;
+  }
+  section aside {
+    margin-top: 50px;
+  }
+  section aside .trf ._6luv {
+    width: 340px;
+  }
+  section aside .trf ._6luv input {
+    width: 289px;
+  }
+  section aside .trf ._6luv .batao-1 {
+    width: 21rem;
+  }
+  section aside .trf ._6luv .linha {
+    width: 21rem;
+  }
+  section aside .container-2 .link-final {
+    width: 323px;
+  }
+}
